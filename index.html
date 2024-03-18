@@ -26,47 +26,56 @@
 
     <!-- Navigation Bar Section -->
     <header class="bg-yellow-100 bg-opacity-40">
-        <nav class="flex justify-around items-center pt-16">
-            <div class="container is-widescreen l">
-                <img class="logo" src="icons/nav-logo.png" alt="">
-            </div>
-            <div class="">
-                <ul class="flex">
-                    <li class="mr-14 font-bold"><a href="#" class="hover:text-purple-700 hover:underline">Home</a></li>
-                    <li class="mr-14 font-bold"><a href=" #" class="hover:text-purple-700 hover:underline">Product</a>
-                    </li>
-                    <li class="mr-14 font-bold"><a href=" #" class="hover:text-purple-700 hover:underline">Contact
-                            Us</a></li>
-                    <li class="mr-14 font-bold"><a href=" #" class="hover:text-purple-700 hover:underline">About Us</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <!-- Banner Section -->
-        <section class="md:flex justify-around items-center w-11/12 mx-auto py-20">
-            <div>
-                <h1 class="text-8xl uppercase" style="font-family: 'Bebas Neue', cursive"><span
-                        class="text-yellow-400">Be the Penguins</span>
-                    <br>
-                    <span>of Winter</span>
-                </h1>
-                <p class="text-2xl w-9/12 mb-12">Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit.
-                    Dolorem,
-                    autem.</p>
-                <button class="bg-green-400 py-4 px-10 text-gray-100 rounded-xl flex hover:bg-green-700"><svg
-                        xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2.5" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                    </svg>Buy Now
+        <div class="container mx-auto px-4 md:px-8">
+            <nav class="flex justify-between items-center py-6 md:py-16">
+                <div>
+                    <img class="logo" src="icons/nav-logo.png" alt="">
+                </div>
+
+                <button class="text-gray-600 focus:outline-none md:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
                 </button>
-            </div>
-            <div>
-                <img src="images/model.png" alt="">
-            </div>
-        </section>
+
+                <div class="hidden md:block">
+                    <ul class="flex">
+                        <li class="mr-14 font-bold"><a href="#" class="hover:text-purple-700 hover:underline">Home</a>
+                        </li>
+                        <li class="mr-14 font-bold"><a href="#"
+                                class="hover:text-purple-700 hover:underline">Product</a></li>
+                        <li class="mr-14 font-bold"><a href="#"
+                                class="hover:text-purple-700 hover:underline">Contact</a></li>
+                        <li class="mr-14 font-bold"><a href="#" class="hover:text-purple-700 hover:underline">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Banner Section -->
+            <section class="md:flex justify-between items-center w-11/12 mx-auto py-12 md:py-20">
+                <div class="md:w-1/2">
+                    <h1 class="text-5xl md:text-8xl uppercase font-bold" style="font-family: 'Bebas Neue', cursive">
+                        <span class="text-yellow-400">Be the Penguins</span><br><span>of Winter</span>
+                    </h1>
+                    <p class="text-lg md:text-2xl mt-4 md:mt-6 mb-8 md:mb-12">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Dolorem, autem.</p>
+                    <button
+                        class="bg-green-400 py-4 px-10 text-gray-100 rounded-xl flex items-center hover:bg-green-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2.5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>Buy Now
+                    </button>
+                </div>
+                <div class="md:w-1/2 mt-6 md:mt-0">
+                    <img class="mx-auto md:mx-0" src="images/model.png" alt="">
+                </div>
+            </section>
+        </div>
     </header>
+
 
     <main>
         <!-- Woman Jacket Section -->
